@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #bbbbbb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* Style for the Add button */
+button.add {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Style for the Delete button */
+button.delete {
+    background-color: #f44336; /* Red color */
+    color: white;
+    align-items: right;
+    border-radius: 8px;
+}
+
+/* Style for the Edit button */
+button.edit {
+    background-color: #2196F3; /* Blue color */
+    color: white;
+    align-items: right;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child {
+    border-bottom: none;
+}
